@@ -1,0 +1,1097 @@
+
+.fone{
+    background-position-x: 70px;
+    margin-top: -20px;
+    background-image: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0,0.5) ),url(fone1.jpeg);
+    background-repeat: no-repeat;
+    height: 700px;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+
+}
+
+.header{
+    text-align: center;
+    margin-top: -10px;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    height: 60px;
+    background-color: rgb(139, 25, 25);
+}
+.main_header{
+    margin-left:80px;
+    margin-top: 20px;
+}
+.main_header ul{
+
+     align-items: center;
+     margin-top:-7px;
+     height: 60px;
+     display: flex;
+     list-style: none;
+}
+ .main_header a{
+     margin-left: 60px;
+     text-decoration: none;
+     font-size:15px ;
+     color: white;
+     font-weight: bolder;
+     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+     letter-spacing: 1px;
+     transition: font-size 0.3s;
+     
+ 
+ }
+ .main_header a:hover{
+      font-size: 16px;
+      text-decoration:overline;
+ }
+ .reser{
+     font-weight: bolder;
+    text-decoration: overline;
+ }
+ .logo {
+     margin-top: 80px;
+   text-align: center;
+  
+ }
+
+ .logo a{
+     color: rgb(255, 255, 255);
+    font-family: 'Gwendolyn', cursive;
+    letter-spacing: 8px;
+     font-size: 180px;
+     text-decoration: none;
+     transition: font-size 0.3s;
+ }
+ .logo a:hover{
+    font-size: 185px;
+}
+ .quote{
+     text-align: center;
+     color: white;
+     font-family: Georgia, 'Times New Roman', Times, serif;
+     letter-spacing: 12px;
+     font-size: 18px;
+     font-weight: bolder;
+     transition: font-size 0.3s;
+ }
+ .quote:hover{
+    font-size: 20px;
+ }
+ .book button{
+     
+    color: white;
+    text-decoration: none;
+    margin-left: 620px;
+     margin-top: 80px;
+     height: 60px;
+     width: 180px;
+     background-color: rgb(139, 25, 25);
+     border-radius: 10px;
+     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+ }
+ .book button:hover{
+     background-color: rgb(201, 23, 23);
+     cursor: pointer;
+     
+ }
+ 
+
+ .second_p1 p{
+     position: relative;
+     top: 120px;
+    margin-left: 14%;
+    font-size: 45px;
+    letter-spacing: 2px;
+    font-weight: bolder;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:  rgb(51, 50, 50);
+ }
+ .second_p2 {
+      margin-left: 200px;
+      margin-top: 160px;
+ }
+ .second_p2 p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold ;
+    color: rgb(51, 50, 50);
+ }
+ .text{
+     color: rgb(139, 25, 25);
+     margin-left: 200px;
+     margin-top: 50px;
+     font-weight: bolder;
+ }
+ .read_more{
+  margin-left: 280px;
+  margin-top:40px;
+ }
+ .read_more button{
+    transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+    color: white;
+    text-decoration: none;
+   
+     height: 60px;
+     width: 160px;
+     background-color: rgb(139, 25, 25);
+     border-radius: 10px;
+     font-size: 18px;
+     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+ }
+ .read_more button:hover{
+     background-color: rgb(201, 23, 23);
+     cursor: pointer;
+     font-size: 19px;
+    
+     
+ }
+ .second{
+    
+     margin-top: -42px;
+     height: 720px;
+     background-image:linear-gradient( rgba(248, 241, 241, 0.87), rgba(243, 243, 243, 0.904) ), url(people.jpeg);
+     background-repeat: no-repeat;
+     background-attachment: fixed;
+     background-size: 900px;
+    
+     
+ }
+ .fone_2{
+     margin-top: -50.12%;
+ }
+ 
+ .fone_2 img{
+     margin-top: -6px;
+     margin-left: 890px;
+     height: 714px;
+     width: 534.2px;
+ }
+ 
+.third{
+    margin-top: -2.2%;
+    background-image: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0,0.5) ), url("https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F9%2F2018%2F05%2Ftiramisu-icebox-pie-XL-RECIPE0318.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    background-position-y: 40%;
+    background-attachment: fixed;
+    height: 590px;
+   
+}
+.third_text h1{
+    
+    position: relative;top: 200px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(236, 232, 232);
+    font-size: 40px;
+    letter-spacing: 3px;
+    transition: font-size 0.3s;
+}
+.third_text h1:hover{
+    font-size: 42px;
+}
+.chief{
+  margin-top: -120px;
+  background-color: rgb(236, 232, 232);
+  height: 830px;
+}
+
+.chief h1{
+    position: relative;top:10%;
+    text-align: center;
+    margin-top: 120px;
+    color:rgb(51, 50, 50) ;
+    letter-spacing: 2px;
+    transition: font-size 0.3s;
+}
+.chief h1:hover{
+   font-size: 35px;
+}
+.items {
+    position: absolute;
+    left: 49%;
+    top:370%;
+    transform: translate(-50%, -50%);
+    user-select: none;
+  }
+  .items img:hover{
+      cursor: pointer;
+      
+  }
+  
+  .items .item {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 550px;
+    height: 550px;
+    border-radius: 50%;
+    overflow: hidden;
+    transition: all 300ms ease-in-out;
+    z-index: -1;
+    opacity: 0;
+  }
+  
+  .item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .item.active {
+    opacity: 1;
+    z-index: 99;
+    box-shadow: 0px 0px 105px -35px rgba(0, 0, 0, 0.75);
+  }
+  
+  .item.prev {
+    z-index: 2;
+    opacity: 0.25;
+    transform: translate(-125%, -50%);
+  }
+  
+  .item.next {
+    z-index: 2;
+    opacity: 0.25;
+    transform: translate(25%, -50%);
+  }
+  
+  .items .button-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 275px;
+    z-index: 100;
+  }
+  
+  .button-container .button {
+    color: #fff;
+    font-size: 32px;
+    cursor: pointer;
+    position: relative;
+    opacity: 0.75;
+    transition: all 300ms ease-in-out;
+  }
+  
+  .button-container .button:hover {
+    opacity: 1;
+  }
+  
+  .button-container .button:before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 50px;
+    height: 50px;
+    background-color: rgba(0, 0, 0, 1);
+    border-radius: 50%;
+    z-index: -99;
+  }
+  
+  .button-container .button:nth-child(1) {
+    float: left;
+  }
+  
+  .button-container .button:nth-child(2) {
+    float: right;
+  }
+ 
+ 
+  .col-sm-7 h2{
+     position: relative; top: 510px;
+     color: rgb(255, 255, 255);
+     font-size: 55px;
+     letter-spacing: 5px;
+     transition: font-size 0.3s;
+  }
+  .col-sm-7 h2:hover{
+      font-size: 58px;
+  }
+
+.menus{
+    margin-top: -30px;
+    background-image: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0,0.5) ),url(https://cdn.londonandpartners.com/assets/attractions/eat/46104-640x360-spaghetti-house-spag-bol-640.jpg);
+    background-repeat: no-repeat;
+    height: 660px;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+  
+  .d-block, h2{
+    color: black;
+    font-weight: 700;
+    font-size: 2.5rem;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    padding-bottom: 20px;
+  }
+  
+  
+  #flex-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    width: 100%;
+    min-height: 400px;
+    height: 110vh;
+    max-width: 1000px;
+    margin: auto;
+    background-color: #fff;
+    -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12),
+      0 1px 2px rgba(0, 0, 0, 0.24);
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+    overflow: hidden;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    position: relative;
+  }
+  
+  #left-zone {
+    height: 50%;
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 auto;
+    flex: 0 0 auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+  }
+  
+  #left-zone .list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    list-style: none;
+    -ms-flex-line-pack: stretch;
+    align-content: stretch;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-flex: 1;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    margin: auto;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  
+  .item input {
+    display: none;
+  }
+  
+  label {
+    display: block;
+    opacity: 0.5;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    position: relative;
+  }
+  
+  label:hover {
+    opacity: 0.75;
+    cursor: pointer;
+  }
+  
+  .content-test {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    opacity: 0;
+    -webkit-transform: translateY(100%);
+    -ms-transform: translateY(100%);
+    transform: translateY(100%);
+    height: 50%;
+    width: 100%;
+    -webkit-transition: 0.5s ease-out;
+    -o-transition: 0.5s ease-out;
+    transition: 0.5s ease-out;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    pointer-events: none;
+  }
+  
+  .content-test p {
+    max-width: 50%;
+    text-align: center;
+  }
+  
+  #right-zone {
+    width: 100%;
+    -webkit-box-flex: 1;
+    -ms-flex: 1 0 auto;
+    flex: 1 0 auto;
+    height: 50%;
+  }
+  
+  input:checked ~ .content-test {
+    -webkit-transform: translateY(0%);
+    -ms-transform: translateY(0%);
+    transform: translateY(0%);
+    -webkit-transition: -webkit-transform 1s;
+    transition: -webkit-transform 1s;
+    -o-transition: transform 1s;
+    transition: transform 1s;
+    transition: transform 1s, -webkit-transform 1s;
+    opacity: 1;
+  }
+  
+  
+  
+    #left-zone .list {
+      border-right: 2px solid #cccccc;
+    }
+  
+    .content-test {
+      width: 65%;
+      height: 100%;
+      pointer-events: auto;
+      -webkit-transform: translateY(-100%);
+      -ms-transform: translateY(-100%);
+      transform: translateY(-100%);
+    }
+  
+    #left-zone {
+      width: 35%;
+    }
+  
+    #right-zone {
+      height: 100%;
+      width: 65%;
+    }
+  
+  /* If the screen size is 480px or less */
+ 
+  
+  .content_testimonial-1 .picto {
+    height: 100px;
+    width: 100px;
+    background-image: url("https://i.postimg.cc/RFBHkG46/diamond-Pest-Logo-small.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+  .content_testimonial-1 h1 {
+    color: #d64541;
+    text-align: center;
+  }
+  
+  .content_testimonial-2 .picto {
+    height: 100px;
+    width: 100px;
+    background-image: url("https://i.postimg.cc/bsqXXKCV/a-Plus-Handyman-Logo.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+  .content_testimonial-2 h1 {
+    color: rgb(139, 25, 25);
+  }
+  
+  .content_testimonial-3 .picto {
+    height: 100px;
+    width: 100px;
+    background-image: url("https://i.postimg.cc/zV7sq04z/mod-Movers-Logo.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+  .content_testimonial-3 h1 {
+    color: rgb(139, 25, 25);
+  }
+  
+  .content_testimonial-4 .picto {
+    height: 100px;
+    width: 100px;
+    background-image: url("https://i.postimg.cc/4Y3rypTz/ak-Pest-Control-Logo.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+  .content_testimonial-4 h1 {
+    color: rgb(139, 25, 25);
+  }
+  
+  .content-test h1:first-letter {
+    text-transform: uppercase;
+  }
+  
+  input:checked ~ label {
+    opacity: 1;
+    -webkit-animation: all 1s cubic-bezier(0.455, 0.03, 0.515, 0.955);
+    animation: all 1s cubic-bezier(0.455, 0.03, 0.515, 0.955);
+  }
+  
+  input:checked ~ label.label_testimonial-1 {
+    color: rgb(139, 25, 25);
+    border-right: solid 4px rgb(139, 25, 25);
+  }
+  
+  input:checked ~ label.label_testimonial-2 {
+    color: rgb(139, 25, 25);
+    border-right: solid 4px rgb(139, 25, 25);
+  }
+  
+  input:checked ~ label.label_testimonial-3 {
+    color: rgb(139, 25, 25);
+    border-right: solid 4px rgb(139, 25, 25);
+  }
+  
+  input:checked ~ label.label_testimonial-4 {
+    color: rgb(139, 25, 25);
+    border-right: solid 4px rgb(139, 25, 25);
+  }
+  
+  label.label_testimonial-1:before {
+    content: " ";
+    display: block;
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    margin-left: 15px;
+    background-image: url("https://i.postimg.cc/RFBHkG46/diamond-Pest-Logo-small.jpg");
+    background-position: center;
+    background-size: 75% 75%;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+  }
+  
+  label.label_testimonial-2:before {
+    content: " ";
+    display: block;
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    margin-left: 15px;
+    background-image: url("https://i.postimg.cc/bsqXXKCV/a-Plus-Handyman-Logo.jpg");
+    background-position: center;
+    background-size: 75% 75%;
+    border-radius: 50%;
+    background-repeat: no-repeat;
+  }
+  
+  label.label_testimonial-3:before {
+    content: " ";
+    display: block;
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    margin-left: 15px;
+    background-image: url("https://i.postimg.cc/zV7sq04z/mod-Movers-Logo.jpg");
+    background-position: center;
+    background-size: 75% 75%;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+  }
+  
+  label.label_testimonial-4:before {
+    content: " ";
+    display: block;
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    margin-left: 15px;
+    background-image: url("https://i.postimg.cc/4Y3rypTz/ak-Pest-Control-Logo.jpg");
+    background-position: center;
+    background-size: 75% 75%;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+  }
+  
+  label:first-letter {
+    text-transform: uppercase;
+  }
+  
+  .label_testimonial-1:hover {
+  
+    background-image: -webkit-linear-gradient(left, #ffffff, rgb(139, 25, 25));
+    background-image: -o-linear-gradient(left, #ffffff, rgb(139, 25, 25));
+    background-image: linear-gradient(to right, #ffffff, rgb(139, 25, 25));
+    font-size: 1.2rem;
+    -webkit-transition: font-size 0.5s;
+    -o-transition: font-size 0.5s;
+    transition: font-size 0.5s;
+  }
+  
+  .label_testimonial-2:hover {
+   
+    background-image: -webkit-linear-gradient(left, #ffffff, rgb(139, 25, 25));
+    background-image: -o-linear-gradient(left, #ffffff, rgb(139, 25, 25));
+    background-image: linear-gradient(to right, #ffffff, rgb(139, 25, 25));
+    font-size: 1.2rem;
+    -webkit-transition: font-size 0.5s;
+    -o-transition: font-size 0.5s;
+    transition: font-size 0.5s;
+  }
+  
+  .label_testimonial-3:hover {
+   
+    background-image: -webkit-linear-gradient(left, #ffffff, rgb(139, 25, 25));
+    background-image: -o-linear-gradient(left, #ffffff, rgb(139, 25, 25));
+    background-image: linear-gradient(to right, #ffffff, rgb(139, 25, 25));
+    font-size: 1.2rem;
+    -webkit-transition: font-size 0.5s;
+    -o-transition: font-size 0.5s;
+    transition: font-size 0.5s;
+  }
+  
+  
+ 
+  
+  
+  p.testimonialState {
+    margin-top: -5px;
+    font-size: 0.8rem;
+    font-style: italic;
+    color: #808080d4;
+  }
+  
+  p.testimonialFrom {
+    margin-top: 5px;
+    font-weight: bold;
+    color: #33475c;
+  }
+  footer{
+    
+	position: fixed;
+	bottom: 0;
+}
+
+@media (max-height:800px){
+	footer { position: static; }
+	header { padding-top:40px; }
+}
+
+
+.footer-distributed{
+   
+	background-color: rgb(139, 25, 25);
+	box-sizing: border-box;
+	width: 100%;
+	text-align: left;
+	font: bold 16px sans-serif;
+	padding: 50px 50px 60px 50px;
+
+}
+
+.footer-distributed .footer-left,
+.footer-distributed .footer-center,
+.footer-distributed .footer-right{
+	display: inline-block;
+	vertical-align: top;
+}
+
+/* Footer left */
+
+.footer-distributed .footer-left{
+	width: 30%;
+}
+
+.footer-distributed h3{
+    color: rgb(255, 255, 255);
+    font-family: 'Gwendolyn', cursive;
+    font-size: 60px;
+	margin: 0;
+}
+
+/* The company logo */
+
+.footer-distributed .footer-left img{
+	width: 30%;
+}
+
+
+/* Footer links */
+
+.footer-distributed .footer-links{
+	color:  #ffffff;
+	margin: 20px 0 12px;
+}
+
+.footer-distributed .footer-links a{
+	display:inline-block;
+	line-height: 1.8;
+	text-decoration: none;
+	color:  inherit;
+}
+
+.footer-distributed .footer-company-name{
+	color:  #8f9296;
+	font-size: 14px;
+	font-weight: normal;
+	margin: 0;
+}
+
+
+
+.footer-distributed .footer-center{
+	width: 35%;
+}
+
+
+.footer-distributed .footer-center i{
+	background-color:  #33383b;
+	color: #ffffff;
+	font-size: 25px;
+	width: 38px;
+	height: 38px;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 42px;
+	margin: 10px 15px;
+	vertical-align: middle;
+}
+
+.footer-distributed .footer-center i.fa-envelope{
+	font-size: 17px;
+	line-height: 38px;
+}
+
+.footer-distributed .footer-center p{
+	display: inline-block;
+	color: #ffffff;
+	vertical-align: middle;
+	margin:0;
+}
+
+.footer-distributed .footer-center p span{
+	display:block;
+	font-weight: normal;
+	font-size:14px;
+	line-height:2;
+}
+
+.footer-distributed .footer-center p a{
+	color:  white;
+	text-decoration: none;;
+}
+
+
+/* Footer Right */
+
+.footer-distributed .footer-right{
+	width: 30%;
+}
+
+.footer-distributed .footer-company-about{
+	line-height: 20px;
+	color:  #92999f;
+	font-size: 13px;
+	font-weight: normal;
+	margin: 0;
+}
+
+.footer-distributed .footer-company-about span{
+	display: block;
+	color:  #ffffff;
+	font-size: 18px;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+
+.footer-distributed .footer-icons{
+	margin-top: 25px;
+}
+
+.footer-distributed .footer-icons a{
+	display: inline-block;
+	width: 35px;
+	height: 35px;
+	cursor: pointer;
+	background-color:  #33383b;
+	border-radius: 2px;
+
+	font-size: 20px;
+	color: #ffffff;
+	text-align: center;
+	line-height: 35px;
+
+	margin-right: 3px;
+	margin-bottom: 5px;
+}
+
+/* Here is the code for Responsive Footer */
+/* You can remove below code if you don't want Footer to be responsive */
+.nav{
+  display: none;
+
+}
+.nav label{
+   font-size: 45px;
+   
+}
+#toggle{
+    display: none;
+}
+
+
+
+/* 48em = 768px */
+
+@media (min-width: 48em) {
+  .header1 li {
+      text-align: center;
+  }
+  .header1 a {
+      background-color: rgb(139, 25, 25);
+      padding: 20px 30px;
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  .header1 .menu {
+      color: white;
+      background-color: rgb(139, 25, 25);
+  }
+  .header1 .menu-icon {
+      color: white;
+      background-color: rgb(139, 25, 25);
+  }
+}
+@media(max-width:500px){
+  #toggle:checked + .main_header {
+   display: none;
+   transition: display,0.3s;
+    
+}
+body{
+  margin-top: -50px;
+}
+
+  .nav {
+    display: block;
+     cursor: pointer;
+     margin-top: 10px;
+     margin-left: -420px;
+     color: #000;
+ }
+.main_header{
+ margin-top: -65px;
+ margin-left: -0.5px;
+
+}
+.main_header li{
+ padding: 16px;
+  background-color:  rgb(139, 25, 25);
+}
+  .main_header a{
+  
+    font-size: 14px;
+    transition: font-size,0.3s;
+  }
+  
+  .main_header ul{
+    
+    display: inline;
+    justify-content: space-evenly;
+    
+    
+   
+  }
+  
+  .header{
+  
+    visibility: hidden;
+  }
+  .fone{
+   width: 482px;
+   height:950px
+  
+  }
+  .second{
+    
+    background-attachment:scroll;
+  }
+
+.fone_2 img{
+
+  width: 100px;
+  margin-left: 200px;
+  visibility: hidden;
+}
+.logo{
+  margin-top: 125px;
+}
+.logo a{
+  font-size: 120px;
+  transition: font-size, 0.3s;
+ 
+}
+.logo a:hover{
+    font-size: 130px;
+}
+.book{
+  margin-left: -465px;
+  margin-top: 50px;
+}
+.second_p1 p{
+    font-size: 42px;
+    margin-left: 40px;
+}
+.second_p2{
+  margin-left: 40px;
+  font-size: 15.5px;
+  
+}
+.second_p2 p{
+  margin-top: -10px;
+}
+.text p{
+  margin-top: -10px;
+  font-size: 15px;
+}
+.text{
+  margin-top: 40px;
+  margin-left: 40px;
+}
+.read_more{
+  margin-top: 70px;
+  margin-left: 119px;
+}
+.second{
+  width: 482px;
+}
+.third{
+  margin-top: -500px;
+  width: 482px;
+  
+}
+.third_text{
+  margin-top:-100%;
+}
+.third_text h1{
+  font-size:35px ;
+  transition: font-size, 0.3s;
+}
+.third_text h1:hover{
+  font-size: 37px;
+}
+.line_qual1{
+  visibility: hidden;
+}
+.line_qual2{
+  visibility: hidden;
+}
+.chief_line{
+  visibility: hidden;
+}
+.items .item{
+  height: 190px;
+  width: 190px;
+  margin-top: 20px;
+}
+.button{
+  margin-top: 20px;
+}
+.chef{
+  height: 600px;
+  width: 482px;
+  margin-top: 120px;
+}
+.list{
+  height: 200px;
+  width: 200px;
+}
+.item h1{
+  font-size: 1px;
+}
+.menus{
+  height: 700px;
+
+}
+.col-sm-7 h2{
+  font-size: 50px;
+  transition: font-size,0.3s;
+}
+.col-sm-7 h2:hover{
+  font-size: 52px;
+}
+}
+@media (max-width: 500px) {
+    
+  .content_testimonial-1 .picto {
+    padding-top: 100px;
+  }
+  .content_testimonial-2 .picto {
+    padding-top: 100px;
+  }
+  .content_testimonial-3 .picto {
+    padding-top: 100px;
+  }
+  .content_testimonial-4 .picto {
+    padding-top: 100px;
+  }
+  .item > label {
+    font-size: 10px;
+    margin-left: -10px;
+  }
+}
+@media (min-width: 500px) {
+  #flex-container {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    min-height: auto;
+    height: 400px;
+    width: 450px;
+    /* position: absolute; */
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  }
+}
+@media (max-width: 880px) {
+
+	.footer-distributed .footer-left,
+	.footer-distributed .footer-center,
+	.footer-distributed .footer-right{
+		display: block;
+		width: 100%;
+		margin-bottom: 40px;
+		text-align: center;
+	}
+
+	.footer-distributed .footer-center i{
+		margin-left: 0;
+	}
+
+}

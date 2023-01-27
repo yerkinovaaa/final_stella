@@ -1,0 +1,522 @@
+body {
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 1440px;
+    background-image: linear-gradient( rgba(248, 241, 241, 0.87), rgba(243, 243, 243, 0.904)), url(photos/pexels-nataliya-vaitkevich-5605620.jpeg);
+}
+
+.header {
+    text-align: center;
+    margin-top: -10px;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    height: 60px;
+    background-color: rgb(139, 25, 25);
+}
+
+.main_header {
+    margin-left: 80px;
+    margin-top: 20px;
+}
+
+.main_header ul {
+    align-items: center;
+    margin-top: -7px;
+    height: 60px;
+    display: flex;
+    list-style: none;
+}
+
+.main_header a {
+    margin-left: 60px;
+    text-decoration: none;
+    font-size: 15px;
+    color: rgb(139, 25, 25);
+    font-weight: bolder;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    letter-spacing: 1px;
+}
+
+.main_header a:hover {
+    color: black;
+}
+
+.reser {
+    font-weight: bolder;
+    text-decoration: underline;
+}
+
+.nachalo {
+    display: flex;
+}
+
+.nachalo img {
+    margin-bottom: 20px;
+}
+
+.Containers img {
+    width: 640px;
+    height: 500px;
+}
+
+.center-left h3 {
+    align-content: center;
+    vertical-align: middle;
+    font-size: 40px;
+    margin-top: 180px;
+    margin-left: 210px;
+    left: 400px;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+@media (max-height:800px) {
+    footer {
+        position: static;
+    }
+    header {
+        padding-top: 40px;
+    }
+}
+
+.footer-distributed {
+    background-color: rgb(139, 25, 25);
+    box-sizing: border-box;
+    width: 100%;
+    text-align: left;
+    font: bold 16px sans-serif;
+    padding: 50px 50px 60px 50px;
+}
+
+.footer-distributed .footer-left,
+.footer-distributed .footer-center,
+.footer-distributed .footer-right {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.footer-distributed .footer-left {
+    width: 30%;
+}
+
+.footer-distributed h3 {
+    color: rgb(255, 255, 255);
+    font-family: 'Gwendolyn', cursive;
+    font-size: 60px;
+    margin: 0;
+}
+
+.footer-distributed .footer-left img {
+    width: 30%;
+}
+
+.footer-distributed .footer-links {
+    color: #ffffff;
+    margin: 20px 0 12px;
+}
+
+.footer-distributed .footer-links a {
+    display: inline-block;
+    line-height: 1.8;
+    text-decoration: none;
+    color: inherit;
+}
+
+.footer-distributed .footer-company-name {
+    color: #8f9296;
+    font-size: 14px;
+    font-weight: normal;
+    margin: 0;
+}
+
+.footer-distributed .footer-center {
+    width: 35%;
+}
+
+.footer-distributed .footer-center i {
+    background-color: #33383b;
+    color: #ffffff;
+    font-size: 25px;
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 42px;
+    margin: 10px 15px;
+    vertical-align: middle;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.footer-distributed .footer-center i.fa-envelope {
+    font-size: 17px;
+    line-height: 38px;
+}
+
+.footer-distributed .footer-center p {
+    display: inline-block;
+    color: #ffffff;
+    vertical-align: middle;
+    margin: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.footer-distributed .footer-center p span {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: block;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 2;
+}
+
+.footer-distributed .footer-center p a {
+    color: white;
+    text-decoration: none;
+    ;
+}
+
+.footer-distributed .footer-right {
+    width: 30%;
+}
+
+.footer-distributed .footer-company-about {
+    line-height: 20px;
+    color: #92999f;
+    font-size: 13px;
+    font-weight: normal;
+    margin: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.footer-distributed .footer-company-about span {
+    display: block;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.footer-distributed .footer-icons {
+    margin-top: 25px;
+}
+
+.footer-distributed .footer-icons a {
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+    background-color: #33383b;
+    border-radius: 2px;
+    font-size: 20px;
+    color: #ffffff;
+    text-align: center;
+    line-height: 35px;
+    margin-right: 3px;
+    margin-bottom: 5px;
+}
+
+@media (max-width: 880px) {
+    .footer-distributed .footer-left,
+    .footer-distributed .footer-center,
+    .footer-distributed .footer-right {
+        display: block;
+        width: 100%;
+        margin-bottom: 40px;
+        text-align: center;
+    }
+    .footer-distributed .footer-center i {
+        margin-left: 0;
+    }
+}
+
+.slideshow-container {
+    margin-left: 50px;
+    position: relative;
+}
+
+.Containers img {
+    margin-left: 50px;
+    margin-bottom: 30px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 5px rgb(102, 24, 24);
+    -moz-box-shadow: 10px 10px 5px rgb(102, 24, 24);
+    -webkit-box-shadow: 10px 10px 5px rgb(102, 24, 24);
+    -khtml-box-shadow: 10px 10px 5px rgb(102, 24, 24);
+}
+
+.shadow {
+    display: flex;
+}
+
+.textmenu h4 {
+    margin-left: 290px;
+    font-size: 45px;
+}
+
+.textmenu h6 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 22px;
+    margin-left: 145px;
+    margin-top: -20px;
+}
+
+.textmenu p {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-left: 105px;
+    width: 500px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.main {
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+.cards {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.cards_item {
+    display: flex;
+    padding: 10px;
+    align-items: center;
+}
+
+.card_image {
+    max-height: 250px;
+    position: relative;
+}
+
+.card_image img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 12px;
+}
+
+@media (min-width: 40rem) {
+    .cards_item {
+        width: 50%;
+    }
+}
+
+@media (min-width: 56rem) {
+    .cards_item {
+        width: 32%;
+    }
+    .cards_item.second {
+        width: 36%;
+    }
+}
+
+.card {
+    background-color: #ffffffb3;
+    border-radius: 0.25rem;
+    box-shadow: 0 0.1rem 3rem #00000019;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    padding: 20px 1rem 10px;
+    border-radius: 16px;
+    height: fit-content;
+}
+
+.card_content {
+    padding: 0.1rem 0;
+}
+
+.price {
+    position: absolute;
+    bottom: 10px;
+    right: -3px;
+    border-top-left-radius: 500rem;
+    border-bottom-left-radius: 500rem;
+    padding-right: 25px;
+    padding-left: 35px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    font-weight: 700;
+    font-size: 22px;
+    color: #fff;
+    background: rgb(139, 25, 25);
+}
+
+.card_title {
+    margin-top: 0;
+    margin-bottom: 15px;
+    text-align: center;
+    font-weight: 700;
+    color: rgb(139, 25, 25);
+}
+
+.card_text {
+    margin-top: 16px;
+    font-size: 17px;
+    font-family: 'Twinkle Star', cursive;
+}
+
+.line1 {
+    display: flex;
+    margin-left: 40px;
+}
+
+.line1 button {
+    position: absolute;
+    right: 0;
+    left: 0;
+    width: 180px;
+    padding: 20px;
+    margin: 0 auto;
+    border: 0;
+    cursor: pointer;
+    border-radius: 20px;
+    margin-left: 60%;
+    box-shadow: 0 10px 20px -5px #94a6af;
+    overflow: hidden;
+}
+
+.line1 button:before,
+button:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.line1 button:before {
+    transform: scale(1);
+    background-color: rgb(139, 25, 25);
+    transition: 0.3s ease transform;
+    z-index: 1;
+}
+
+.line1 button:after {
+    background-color: #000;
+    opacity: 0.16;
+    z-index: 2;
+}
+
+.line1 button div {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 3;
+}
+
+.line1 button div:before,
+button div:after {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    color: #fff;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 1;
+    text-align: center;
+    padding: 12px 0;
+    transition: 0.3s ease all;
+}
+
+.line1 button div:before {
+    content: "Download";
+    letter-spacing: 0;
+    opacity: 1;
+    transform: scale(1);
+}
+
+.line1 button div:after {
+    content: "PDF";
+    letter-spacing: -10px;
+    transform: scale(0);
+    opacity: 0;
+}
+
+.line1 button:hover:before {
+    transform: scale(1.3);
+}
+
+.line1 button:hover div:before {
+    letter-spacing: 3px;
+    opacity: 0;
+    transform: scale(4);
+}
+
+.line1 button:hover div:after {
+    letter-spacing: 0;
+    opacity: 1;
+    transform: scale(1);
+}
+
+.dish {
+    display: flex;
+    text-align: center;
+    width: 1300px;
+    margin-left: 100px;
+}
+
+.namepart h3 {
+    font-family: 'Playfair Display', serif;
+    align-content: center;
+}
+
+.nameofdish {
+    text-align: center;
+}
+
+.sostav {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: -12px;
+    margin-bottom: 10px;
+}
+
+.prices {
+    float: right;
+    color: rgb(139, 25, 25);
+    font-family: 'Playfair Display', serif;
+    margin-left: 500px;
+}
+
+.nameofdish {
+    font-family: 'Quicksand', sans-serif;
+}
+
+.namepart h3 {
+    margin-left: 30px;
+}
+
+.priceofdish {
+    float: right;
+    text-align: right;
+}
+
+@media (max-width: 500px) {
+    .Containers img {
+        width: 400px;
+        height: 300px;
+        margin-left: -20px;
+    }
+    .shadow {
+        flex-direction: column;
+    }
+    .textmenu {
+        margin-top: -40px;
+        margin-left: -115px;
+    }
+    .beforeid {
+        margin-left: -50px;
+        font-size: 20px;
+    }
+}

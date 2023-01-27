@@ -1,0 +1,827 @@
+body{
+  background-image: linear-gradient( rgba(248, 241, 241, 0.7), rgba(243, 243, 243, 0.7)), url(myFone.jpeg);
+}
+.cook{
+  margin-left: 1000px;
+  margin-top: -420px;
+  
+}
+.cook img{
+  width: 320px;
+  height: 300px;
+  box-shadow: 10px 15px 25px 0 rgba(0, 1, 0, 0.9);
+  display: block;
+  transition: all .5s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+
+.fone{
+    margin-top: -20px;
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0,0.5) ),url(https://cdn.trendhunterstatic.com/thumbs/rustic-pizzeria.jpeg);
+    background-repeat: no-repeat;
+    height: 360px;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    
+
+}
+.header{
+    text-align: center;
+    margin-top: -10px;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    height: 60px;
+    background-color: rgb(139, 25, 25);
+}
+.main_header{
+    margin-left:80px;
+    margin-top: 20px;
+}
+.main_header ul{
+
+     align-items: center;
+     margin-top:-7px;
+     height: 60px;
+     display: flex;
+     list-style: none;
+}
+ .main_header a{
+     margin-left: 60px;
+     text-decoration: none;
+     font-size:15px ;
+     color: white;
+     font-weight: bolder;
+     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+     letter-spacing: 1px;
+     transition: font-size 0.3s;
+     
+ 
+ }
+ .main_header a:hover{
+      font-size: 16px;
+      text-decoration:overline;
+ }
+ .reser{
+     font-weight: bolder;
+    text-decoration: overline;
+ }
+ .logo {
+    margin-top: 5px;
+  text-align: center;
+ 
+}
+
+.logo a{
+    color: rgb(255, 255, 255);
+   font-family: 'Gwendolyn', cursive;
+   letter-spacing: 8px;
+    font-size: 100px;
+    text-decoration: none;
+    transition: font-size 0.3s;
+}
+.logo a:hover{
+   font-size: 105px;
+}
+.quote{
+    text-align: center;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    letter-spacing: 12px;
+    font-size: 18px;
+    font-weight: bolder;
+    transition: font-size 0.3s;
+}
+.quote:hover{
+   font-size: 20px;
+}
+
+.mission p {
+    margin-left: 400px;
+    margin-top: 140px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+   color: rgb(78, 78, 78);
+   
+
+}
+.text1{
+  margin-left: -120px;
+}
+.text1 h1{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-left: 400px;
+    transition: font-size 0.3s;
+}
+.text1 p{
+    margin-left: 400px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+   
+}
+
+.create h1{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-left: 400px;
+   
+}
+.create1 h1{
+  margin-left: 400px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+ 
+}
+.create1{
+  transition: font-size,0.3s;
+}
+.create1:hover{
+  font-size: 18px;
+  color:rgb(139, 25, 25);
+}
+.create{
+  transition: font-size 0.3s;
+}
+.create:hover{
+    font-size: 19px;
+    color:rgb(139, 25, 25);
+}
+.text2{
+  margin-top: 180px;
+}
+.text2 p {
+    margin-left: 120px;
+    margin-top: 100px;
+   color: rgb(78, 78, 78);
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+.one{
+    display: flex;
+    margin-left: 100px;
+    margin-top: -20px;
+}
+.one h1{
+    margin-left: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    transition: font-size 0.5s;
+
+}
+.one h1:hover{
+    font-size: 39px;
+    color:rgb(139, 25, 25);
+}
+
+.one1 p{
+    margin-top: -1px;
+    margin-left: 178px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+.second{
+  display:inline-flex
+}
+
+.visuallyhidden {
+    position: absolute;
+    z-index: -1;
+    right: 0;
+    opacity: 0;
+    
+  }
+  
+
+  
+  .container {
+      margin-left:-50px;
+    overflow: hidden;
+    padding: 100px;
+    margin-top: -80px;
+
+   
+  }
+  
+  .card-carousel {
+    --card-width: 80%;
+    --card-max-width: 800px;
+    --card-height: 500px;
+    --carousel-min-width: 600px;
+    z-index: 1;
+    position: relative;
+    margin: 0 auto;
+    width: 100%;
+    height: var(--card-height);
+    min-width: var(--carousel-min-width);
+    transition: filter .3s ease;
+  }
+  
+  @media screen and (max-width: 500px) {
+    .card-carousel {
+      margin-left: calc((100vw - var(--carousel-min-width) - 40px) / 2)
+    }
+  }
+  
+  .card-carousel.smooth-return {
+    transition: all .2s ease;
+  }
+  
+  .card-carousel .card {
+    background: whitesmoke;
+    width: var(--card-width);
+    max-width: var(--card-max-width);
+    text-align: center;
+    padding: 1em;
+    min-width: 250px;
+    height: var(--card-height);
+    position: absolute;
+    margin: 0 auto;
+    color: rgba(0,0,0,.5);
+    transition: inherit;
+    -webkit-box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.3);
+    -moz-box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.3);
+    box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.3);
+    border-radius: 1em;
+    filter: brightness(.9);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .card.highlight {
+    filter: brightness(1)
+  }
+  
+  
+  .card:nth-of-type(1) .image-container {
+      background-image: url("https://t3.ftcdn.net/jpg/02/67/03/34/360_F_267033445_hb8YB0pAeSy69KxqhGdmzGfDWEk3QHQy.jpg");
+      background-position-x: -50px;
+  }
+   
+  .card:nth-of-type(2) .image-container {
+    background-image: url("https://www.sapkoenchev.com/SPK_StsContFiles/1070547-2-restaurant_waiter-ess_1.jpg")
+  }
+  
+  .card:nth-of-type(3) .image-container {
+    background-image: url("https://i.pinimg.com/originals/d5/be/35/d5be3524d58f03fe134e4ca22e1b997b.png")
+  }
+  
+  
+  
+  
+  .image-container {
+    width: 10em;
+    height: 10em;
+    position: relative;
+    background-size: cover;
+    margin-bottom: 2em;
+    border-radius: 100%;
+    padding: 1em;
+    -webkit-box-shadow: inset 0px 0px 17px 0px rgba(0,0,0,0.3);
+  -moz-box-shadow: inset 0px 0px 17px 0px rgba(0,0,0,0.3);
+  box-shadow: inset 0px 0px 17px 0px rgba(0,0,0,0.3);
+    
+  }
+  
+  .image-container::after {
+    content: "";
+    display: block;
+    width: 120%;
+    height: 120%;
+    border: solid 3px rgba(0,0,0,.1);
+    border-radius: 100%;
+    position: absolute;
+    top: calc(-10% - 3px);
+    left: calc(-10% - 3px);
+  }
+  
+  h2 {
+    padding: 1em;
+    margin-top: 1em;
+    background: rgba(0,0,0,.3);
+    text-align: center;
+    color: white;
+    border-radius: .2em;
+    display: inline-block;
+    transform: translateX(calc((100vw - 100%) / 2))
+  }
+  
+  h2 a {
+    color: #f5b916
+  }
+  .line{
+    background-image: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0,0.8) ),url(https://archello.s3.eu-central-1.amazonaws.com/images/2021/02/17/eleftherios-ambatzis---039-benini--039-s--039--italian-restaurant-in-rhodes-restaurants-archello.1613530601.251.jpg);
+    background-repeat: no-repeat;
+    height: 690px;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+  }
+  .line h1{
+    text-align: center;
+    padding: 60px;
+    color: white;
+    letter-spacing: 2px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    transition: font-size,0.3s;
+  }
+  .line h1:hover{
+    font-size: 34px;
+  }
+.leave h4{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  margin-left: 440px;
+  margin-top: 5px;
+  font-size: 30px;
+  color: white;
+
+}
+.mt-2{
+  margin-top: -550px;
+}
+.col-lg-6{
+  margin-left: 440px;
+}
+.col-lg-6 {
+  width: 500px;
+}
+ .file{
+   margin-left: 440px;
+   margin-top: -21px;
+ }
+ .enter{
+  margin-left: 35%;
+  margin-top: 24px;
+ }
+  .enter button {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    letter-spacing: 1px;
+    font-size: 17px;
+    font-weight: bolder;
+    
+    height: 60px;
+    width: 400px;
+    
+    background: rgb(139, 25, 25);
+    color: white;
+    
+    border-radius: 0 4px 4px 0;
+    box-shadow: 0px 2px 15px rgb(0, 0, 0);
+  }
+  .enter button:hover{
+    cursor: pointer;
+    background: black;
+    clear: both;
+  }
+  .text-dark {
+    font-family: 'Lato', sans-serif;
+    color: white;
+}
+
+
+
+#footer .footer-top h3 {
+    font-size: 36px;
+    font-weight: 900;
+    color: white;
+    position: relative;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    
+}
+
+#footer .footer-top p {
+    font-size: 15;
+    font-style: italic;
+    margin: 30px 0 0 0;
+    padding: 0;
+    color: white;
+   
+}
+
+#footer .footer-top .footer-newsletter {
+    text-align: center;
+    font-size: 15px;
+    margin-top: 30px;
+    color: white;
+}
+
+#footer .footer-top .footer-newsletter form {
+    background: white;
+    padding: 6px 10px;
+    position: relative;
+    border-radius: 4px;
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+#footer .footer-top .footer-newsletter form input[type="email"] {
+    border: 0;
+    padding: 4px 8px;
+    width: calc(100% - 100px);
+}
+
+#footer .footer-top .footer-newsletter form input[type="name"] {
+    border: 0;
+    padding: 4px 8px;
+    width: calc(100% - 100px);
+}
+
+#footer .footer-top .footer-newsletter form input[type="surname"] {
+    border: 0;
+    padding: 4px 8px;
+    width: calc(100% - 100px);
+}
+
+#footer .footer-top .footer-newsletter form input[type="phone-number"] {
+    border: 0;
+    padding: 4px 8px;
+    width: calc(100% - 100px);
+}
+
+
+
+
+.listnumber {
+    background-color: white;
+    color: white;
+}
+
+.listnumber hr {
+    border: 1px solid white;
+}
+
+.listnumber table {
+    font-family: 'Roboto Condensed', sans-serif;
+    padding: 20px;
+    caption-side: bottom;
+    color: white;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+.listnumber h2 {
+    text-align: center;
+    
+}
+
+.listnumber h5 {
+    text-align: center;
+   
+}
+
+.listnumber table {
+    border: 1px solid white;
+}
+
+.listnumber tr {
+    border: 1px solid white;
+}
+
+.listnumber td {
+    border: 1px solid white;
+}
+
+.listnumber th {
+    border: 1px solid white;
+    background-color: lightseagreen;
+    color: white;
+}
+
+.listnumber a {
+    color: lightseagreen;
+    background: white;
+    border-radius: 30px;
+    margin: 0 45% 0 45%;
+    border-color: lightseagreen;
+  
+}
+
+.phonethisnumbers h5 {
+    margin-top: 25px;
+    font-family: 'Lato', sans-serif;
+    
+}
+.file input{
+  color: white;
+}
+p.testimonialState {
+  margin-top: -5px;
+  font-size: 0.8rem;
+  font-style: italic;
+  color: #808080d4;
+}
+
+p.testimonialFrom {
+  margin-top: 5px;
+  font-weight: bold;
+  color: #33475c;
+}
+footer{
+  
+position: fixed;
+margin-top: 50px;
+}
+
+@media (max-height:800px){
+footer { position: static; }
+header { padding-top:40px; }
+}
+
+
+.footer-distributed{
+ 
+background-color: rgb(139, 25, 25);
+box-sizing: border-box;
+width: 100%;
+text-align: left;
+font: bold 16px sans-serif;
+padding: 50px 50px 60px 50px;
+
+}
+
+.footer-distributed .footer-left,
+.footer-distributed .footer-center,
+.footer-distributed .footer-right{
+display: inline-block;
+vertical-align: top;
+}
+
+/* Footer left */
+
+.footer-distributed .footer-left{
+width: 30%;
+}
+
+.footer-distributed h3{
+  color: rgb(255, 255, 255);
+  font-family: 'Gwendolyn', cursive;
+  font-size: 60px;
+margin: 0;
+}
+
+/* The company logo */
+
+.footer-distributed .footer-left img{
+width: 30%;
+}
+
+
+/* Footer links */
+
+.footer-distributed .footer-links{
+color:  #ffffff;
+margin: 20px 0 12px;
+}
+
+.footer-distributed .footer-links a{
+display:inline-block;
+line-height: 1.8;
+text-decoration: none;
+color:  inherit;
+}
+
+.footer-distributed .footer-company-name{
+color:  #8f9296;
+font-size: 14px;
+font-weight: normal;
+margin: 0;
+}
+
+
+
+.footer-distributed .footer-center{
+width: 35%;
+}
+
+
+.footer-distributed .footer-center i{
+background-color:  #33383b;
+color: #ffffff;
+font-size: 25px;
+width: 38px;
+height: 38px;
+border-radius: 50%;
+text-align: center;
+line-height: 42px;
+margin: 10px 15px;
+vertical-align: middle;
+}
+
+.footer-distributed .footer-center i.fa-envelope{
+font-size: 17px;
+line-height: 38px;
+}
+
+.footer-distributed .footer-center p{
+display: inline-block;
+color: #ffffff;
+vertical-align: middle;
+margin:0;
+}
+
+.footer-distributed .footer-center p span{
+display:block;
+font-weight: normal;
+font-size:14px;
+line-height:2;
+}
+
+.footer-distributed .footer-center p a{
+color:  white;
+text-decoration: none;;
+}
+
+
+/* Footer Right */
+
+.footer-distributed .footer-right{
+width: 30%;
+}
+
+.footer-distributed .footer-company-about{
+line-height: 20px;
+color:  #92999f;
+font-size: 13px;
+font-weight: normal;
+margin: 0;
+}
+
+.footer-distributed .footer-company-about span{
+display: block;
+color:  #ffffff;
+font-size: 18px;
+font-weight: bold;
+margin-bottom: 20px;
+}
+
+.footer-distributed .footer-icons{
+margin-top: 25px;
+}
+
+.footer-distributed .footer-icons a{
+display: inline-block;
+width: 35px;
+height: 35px;
+cursor: pointer;
+background-color:  #33383b;
+border-radius: 2px;
+
+font-size: 20px;
+color: #ffffff;
+text-align: center;
+line-height: 35px;
+
+margin-right: 3px;
+margin-bottom: 5px;
+}
+
+/* Here is the code for Responsive Footer */
+/* You can remove below code if you don't want Footer to be responsive */
+
+
+@media (max-width: 880px) {
+
+.footer-distributed .footer-left,
+.footer-distributed .footer-center,
+.footer-distributed .footer-right{
+  display: block;
+  width: 100%;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.footer-distributed .footer-center i{
+  margin-left: 0;
+}
+
+}
+@media(max-width:500px){
+  .header{
+    opacity: 0;
+  }
+  body{
+    margin-top: -55px;
+    width: 482px;
+    
+  }
+  .fone{
+   width: 482px;
+  }
+
+
+.logo{
+  margin-top: 25px;
+}
+.logo a{
+  font-size: 80px;
+  transition: font-size, 0.3s;
+ 
+}
+.logo a:hover{
+    font-size: 85px;
+
+}
+.mission{
+  margin-top: -100px;
+  
+}
+.text1 p{
+  
+  margin-left: 220px;
+}
+
+.create{
+  margin-top: 50px;
+  transition: font_size,0.3s;
+}
+.create h1{
+  margin-top: -22px;
+  margin-left: 510px;
+  
+}
+.create:hover{
+  font-size: 16.5px;
+}
+.line_cr{
+  opacity: 0;
+}
+.text2{
+  margin-left: -60px;
+  margin-top: -10px;
+}
+.second{
+  display: block;
+}
+.one{
+  margin-left: 40px;
+}
+.one h1{
+  font-size: 25px;
+  transition: font-size,0.3s;
+}
+.one h1:hover{
+  font-size: 26px;
+}
+.one1{
+  margin-left:-1px;
+}
+.one1 p{
+  margin-left: 110px;
+}
+.mission{
+  margin-left: -350px;
+}
+.create{
+  margin-left: -330px;
+  font-size: 14px;
+  transition: font-size,0.3s;
+}
+.create:hover{
+ font-size: 15px;
+}
+.mt-2{
+  margin-left: -350px;
+}
+.col-lg-6 {
+  width: 300px;
+}
+.leave h4{
+  font-size: 20px;
+}
+.enter {
+  margin-left: 400px;
+}
+.cook img{
+  visibility: hidden;
+}
+.footer-distributed{
+  margin-left: 350px;
+  width: 482px;
+}
+
+.create1 h1{
+  margin-left: 45px;
+  font-size: 25px;
+  transition: font-size,0.3s;
+  
+}
+.create1 h1:hover{
+  font-size: 27px;
+}
+.first{
+  margin-left: -100px;
+  
+}
+.main_header a{
+  font-size: 12px;
+  transition: font-size,0.3s;
+}
+.main_header a{
+  font-size: 14px;
+}
+.main_header ul{
+  display: inline;
+  justify-content: space-evenly;
+}
+.fone{
+  height:450px;
+  
+}
+}
